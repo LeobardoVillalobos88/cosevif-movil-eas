@@ -24,6 +24,10 @@
         "CAMERA",
         "READ_EXTERNAL_STORAGE",
         "WRITE_EXTERNAL_STORAGE",
+        "android.permission.CAMERA",
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
         "android.permission.CAMERA"
       ],
       "adaptiveIcon": {
@@ -44,6 +48,12 @@
         "projectId": "ef544bcf-ab77-4d9d-8257-23069a9ec60e"
       }
     },
-    "owner": "leobardovillalobos88"
+    "owner": "leobardovillalobos88",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/ef544bcf-ab77-4d9d-8257-23069a9ec60e"
+    }
   }
 }
