@@ -23,12 +23,14 @@
       "permissions": [
         "CAMERA",
         "READ_EXTERNAL_STORAGE",
-        "WRITE_EXTERNAL_STORAGE"
+        "WRITE_EXTERNAL_STORAGE",
+        "android.permission.CAMERA"
       ],
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.leobardovillalobos88.cosevif"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -36,6 +38,12 @@
     "newArchEnabled": true,
     "plugins": [
       "expo-barcode-scanner"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "ef544bcf-ab77-4d9d-8257-23069a9ec60e"
+      }
+    },
+    "owner": "leobardovillalobos88"
   }
 }
